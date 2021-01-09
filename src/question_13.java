@@ -30,7 +30,7 @@ class question_13{
     public static Question random_question_13(){
         Random rand = new Random();
         int index = rand.nextInt(10);
-        System.out.println("Տասնմեկերորդ հարց, 500000 դրամ\n");
+        System.out.println("Տասներեքերորդ հարց, 2000000 դրամ\n");
         return question_13_array()[index];
     }
 }
